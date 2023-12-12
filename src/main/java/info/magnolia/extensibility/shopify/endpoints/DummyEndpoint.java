@@ -23,7 +23,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @ApplicationScoped
-@Path("/")
+@Path("/hello")
 public class DummyEndpoint {
 
     private ShopifyService shopifyService;
